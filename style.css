@@ -1,0 +1,164 @@
+/* Entire page styling */
+*{
+    list-style: none;
+    margin:0;
+}
+
+html{    
+    scroll-behavior: smooth;
+}
+
+
+
+/* Navigation elements styling */
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color: #033E97;
+
+}
+.navbar a{
+    color:#FFFFFF;
+}
+
+.menu a:hover {
+    border-bottom: 3px solid #FFFFFF;
+  }
+
+.menu a{
+    text-decoration: none;
+    text-align: center;
+    padding: 14px;
+    color:#FFFFFF;
+}
+
+.menu a.menu-btn {
+    border-bottom: 3px solid #FFFFFF;
+  }
+
+
+/* logo styling */
+ .logo{
+    height: 75px;
+    width:252px;
+    top:70px;
+    left:95px;
+}
+
+
+nav ul{
+    float: right;
+}
+
+nav li{
+    display: inline-block;
+
+}
+
+/* body styling */
+body{
+    font-family:poppins;
+    
+}
+section{
+    padding: 100px 0;
+}
+.listlinks a{
+    color: #FFFFFF;
+}
+.vl {
+    border-left: 3px solid #FFFFFF;
+    height: 80px;
+  }
+
+
+.about,.projects,.brand,.contact,.footy{
+    background: #033E97;
+    color: #FFFFFF;
+    
+}
+.pr{
+  
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    padding: 4px;
+    background: rgb(40,36, 212,0.5);
+    border: 1px solid #000;
+    text-align: center;
+}
+.pr1{
+       
+        border-radius: 50%;
+        width: 34px;
+        height: 34px;
+        padding: 4px;
+        background: orange;
+        border: 1px solid #000;
+        text-align: center;
+}
+.flex-container {
+    display: flex;
+  }
+
+section .dashboard{
+    background: #FFFFFF;
+}
+
+.dashboard-image-bg {
+    display: flex;
+    justify-content: center;
+  height: 330px;
+  width: 330px;
+  border-radius: 165px;
+  background: #EDF4F94D;
+  
+}
+.dashboard-image-bg1{
+    display: flex;
+    justify-content: center;
+   height: 450px;
+   width: 450px;
+   border-radius: 495px;
+   background: #C2D0FF;
+}
+.dashboard-image-bg2{
+    display: flex;
+    justify-content: center;
+  height: 330px;
+  width: 330px;
+  border-radius: 165px;
+  background: #C2D0FF;
+
+}
+/* Style images  */
+.profilepic,.price,.pharmacy,.front,.IT,.card{
+    width: 400px;
+    height:400px; 
+}
+
+.card{
+    margin-left: 40px;
+}
+
+
+.flex1content{
+    margin-left: 96px;
+}
+.footy{
+    left:1036px;
+
+}
+
+footer ul{
+    float: right;
+}
+footer li{
+    display: inline-block;
+}
+.footy a{
+    color:#FFFFFF;
+    padding:5px;
+}
+
+
